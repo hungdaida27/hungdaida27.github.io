@@ -1,0 +1,55 @@
+h1 {
+  color: red;
+  text-align: center;
+}
+.purple {
+  color: purple;
+}
+.fsize {
+  font-size: 10px;
+}
+ul li {
+  color: seagreen;
+}
+* {
+  word-spacing: 3px;
+}
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  background-color: lightgrey;
+}
+.none {
+  text-decoration: none;
+}
+h1.uppercase {
+  text-transform: uppercase;
+}
+h1.spacing {
+  letter-spacing: 4px;
+}
+h1.shadow {
+  text-shadow: 2px 2px;
+}
+.text {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: bold;
+  color: yellow;
+  background-color: violet;
+  text-align: left;
+  text-decoration: none;
+  letter-spacing: 2px;
+  line-height: 2;
+}
+ul.italic {
+  font-style: italic;
+}
+p.bold {
+  font-weight: bold;
+}
+.center {
+    text-align: center;
+}

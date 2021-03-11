@@ -1,0 +1,17 @@
+h1 {
+    color: white;
+    background-color: yellow;
+    padding: 20px;
+}
+p {
+    font-size: large;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.size {
+    font-size: 30px;
+}
