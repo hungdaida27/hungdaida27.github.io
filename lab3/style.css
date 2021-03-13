@@ -1,0 +1,186 @@
+@import url("https://tinbds.com/images/place/0/n9a.jpg");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://scontent.fhan7-1.fna.fbcdn.net/v/t1.0-9/90901285_3023693327691731_6860561208492163072_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=b9115d&_nc_ohc=7V5vmssGNGcAX_CyhNL&_nc_ht=scontent.fhan7-1.fna&oh=09f62fab60477d66a20c4dda7c95418d&oe=6070B06D);
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.material-icons {
+  vertical-align: middle;
+}
+
+/* For header section */
+.header .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
+.heading {
+    background-image: url(https://scontent.fhan7-1.fna.fbcdn.net/v/t1.0-9/18268509_1314755011964803_1675196864405227546_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=e3f864&_nc_ohc=xEiZvuit_CIAX8iLpKa&_nc_ht=scontent.fhan7-1.fna&oh=3b1694fa3b67e1c11ef4688f3afd9562&oe=60705E85);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: aqua;
+}
+
+/* For navigation */
+.nav {
+  background-color: blue;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.menu-item {
+  display: inline-block;
+}
+
+.nav .material-icons {
+  margin-right: 6px;
+  vertical-align: ;
+}
+
+.menu-link {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* For content */
+.content {
+  word-spacing: -1ch;
+  margin-top: 10px;
+}
+
+.main,
+.aside {
+  display: inline-block;
+  word-spacing: normal;
+  vertical-align: top;
+}
+
+.main {
+  width: calc(75% - 10px);
+  margin-right: 10px;
+}
+
+.aside {
+  width: 25%;
+  background-color: #fff;
+  position: sticky;
+  top: 66px;
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 20px;
+  width: 160px;
+  border: 0;
+  height: 30px;
+}
+
+/* For author */
+.author {
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.author-image {
+  width: 100px;
+}
+
+.author-name {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.author-description {
+  margin: 0;
+}
+
+/* For main content */
+.post {
+  padding-bottom: 20px;
+  background-color: rgb(219, 209, 209);
+  margin-bottom: 20px;
+}
+
+.post-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.post-content {
+    background-color: lavenderblush;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+  text-indent: 40px;
+}
+
+.post-heading {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.post-time {
+  margin-top: 0;
+  color: #666;
+}
+
+.post-short-detail {
+  margin-bottom: 0px;
+}
+.post-img {
+    background-color: gray;
+    width: 500px;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+
+}
+.post-other {
+    background-color: rgb(250, 250, 246);
+    width: 500px;
+    text-align: justify;
+
+}
+
+/* For footer */
+.footer {
+  background-color: #808080;
+  padding: 20px;
+}
+
+.copy-right {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+}
