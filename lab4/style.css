@@ -1,0 +1,140 @@
+.body {
+    font-family: sans-serif;
+}
+
+.menu {
+    word-spacing: -1ch;
+    list-style: none;
+    position: fixed;
+    top: 0;
+    left: auto;
+    right: auto;
+    text-align: center;
+}
+
+.menu-item {
+    position: relative;
+    word-spacing: normal;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menu-item:hover .menu-link {
+    background-color: yellow;
+    color: black;
+}
+
+.menu-item:hover > .sub-menu {
+    display: block;
+}
+
+.menu-link {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background: plum;
+    color: white;
+}
+
+/* .menu-link:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.menu-link:hover + .sub-menu {
+    display: block;
+} */
+
+.menu-link.active {
+    background: yellow;
+    color: black;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 220%;
+    list-style: none;
+    background-color: green;
+    padding-left: 0;
+}
+
+
+.sub-item:hover > .sub-link {
+    background-color: white;
+    color: black;
+}
+
+.sub-item:hover > .sub-menu {
+    display: block;
+}
+
+.sub-link {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.sub-item .sub-menu {
+    display: none;
+    top: 0;
+    left: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.modal-content {
+    width: 300px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+.body {
+    height: 2000px;
+    background-color:;
+}
+.content {
+    padding-top: 0px;
+    }
+ .mess {
+        position: fixed;
+        background-color: plum;
+        bottom: 0;
+        right: 10px;
+        width: 100px;
+
+    }
+    .p-mess {
+        color: powderblue;
+        text-align: center;
+        text-decoration: none;
+    }
+    .main-menu {
+      
+        text-align: center;
+        display: inline-block;
+
+    }
+    .main-menuitem {
+        display: inline;
+        text-decoration: none;
+    }
