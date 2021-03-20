@@ -1,0 +1,53 @@
+.facebook {
+  font-family: inherit;
+}
+.body {
+    background-color: #f0f2f5;
+}
+
+.content {
+  background-color: #f0f2f5;
+  display: inline-block;
+  word-spacing: normal;
+  vertical-align: top;
+  width: auto;
+  height: auto;
+
+}
+.fb1 {
+  background-color: #f0f2f5;
+  width: 400px;
+}
+.logo1 {
+  display: block;
+}
+
+.slogan {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.fb2 {
+  margin-right: 0px;
+}
+.login {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.nopass {
+    text-decoration: none;
+}
+.creat {
+    background-color:#42b72b;
+    width: 150px;
+    height: 30px;
+}
+.creat1 {
+text-decoration: none;
+text-align: center;
+color: white;
+}
+.menu-item {
+    display: inline-block;
+}
