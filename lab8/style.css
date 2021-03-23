@@ -1,0 +1,290 @@
+/* Style chung chung */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+  color: #1d1f2e;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* Class chung */
+.container {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 60px 0px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex.nowrap {
+  flex-wrap: nowrap;
+}
+
+/* Direction */
+.flex.column {
+  flex-direction: column;
+}
+
+/* Justify */
+.flex.j-start {
+  justify-content: flex-start;
+}
+
+.flex.j-end {
+  justify-content: flex-end;
+}
+
+.flex.j-center {
+  justify-content: center;
+}
+
+.flex.j-between {
+  justify-content: space-between;
+}
+
+/* Align */
+.flex.a-start {
+  align-items: flex-start;
+}
+
+.flex.a-end {
+  align-items: flex-end;
+}
+
+.flex.a-center {
+  align-items: center;
+}
+
+.item-nav {
+  margin-left: 5px;
+  margin-right: 5px;
+  position: relative;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  color: #1d1f2e;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+}
+
+.menu-item {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  max-width: 1440px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.header-img {
+  display: flex;
+  max-width: 1440px;
+  min-height: 530px;
+  min-width: 880px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header-content {
+  position: absolute;
+  width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-align: center;
+}
+
+.header-text {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.text-top {
+  display: block;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+}
+.header-selection {
+  position: relative;
+  margin-bottom: 100px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.text-to {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 48px;
+  line-height: 60px;
+  color: white;
+}
+
+.big-text {
+  margin-bottom: 30px;
+  align-self: start;
+  opacity: 0.9;
+  color: #fff;
+}
+
+.button-head {
+  background-color: #fff;
+  position: relative;
+  z-index: 50;
+  display: inline-block;
+  padding: 18px 24px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-bottom-style: none;
+  border-radius: 0px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px 0 rgb(29 31 46 / 10%);
+  color: #1d1f2e;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.container.small {
+  width: 940px;
+}
+.wrap {
+  position: relative;
+  display: block;
+  width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content-wrap {
+  display: block;
+  width: 70%;
+  margin-right: auto;
+  margin-bottom: 100px;
+  margin-left: auto;
+  text-align: center;
+}
+
+.para {
+  color: rgba(29, 31, 46, 0.7);
+}
+p {
+}
+
+.link-home {
+  margin-top: 10px;
+  border-bottom: 2px solid rgba(162, 95, 75, 0.2);
+  transition: color 400ms ease, border-color 400ms ease;
+}
+
+a {
+  color: #a25f4b;
+}
+
+.sub-wrap {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.gachngang {
+  display: inline-block;
+  width: 30px;
+  height: 1px;
+  background-color: #ececed;
+}
+
+.sub-text {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.mug-list {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.mug-item {
+  display: flex;
+  margin-right: -10px;
+  margin-left: -10px;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.listitem {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mug-anh {
+    margin-bottom: 50px;
+}
+
+.mug-ten {
+    margin-top: 50px;
+}
+
+.more-list {
+    width: 100%;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.more-item {
+    display: flex;
+  margin-right: -10px;
+  margin-left: -10px;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.moreitem {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
