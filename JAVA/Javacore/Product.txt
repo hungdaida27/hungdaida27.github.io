@@ -1,0 +1,24 @@
+01 - Intel Core i3 10100 - 3.60 Up to 4.30GHz, 6M, 4 Cores 8 Threads - 3550000 - 4090000 - 10 - 7 - INTEL - Vi xử lý
+02 - Intel Core i5 10400 - 2.90 Up to 4.30GHz, 12M, 6 Cores 12 Threads - 4550000 - 4890000 - 15 - 6 - INTEL - Vi xử lý
+03 - Intel Core i7 10700 - 2.90 Up to 4.80GHz, 16M, 8 Cores 16 Threads - 7650000 - 8190000 - 22 - 7 - INTEL - Vi xử lý
+04 - AMD RYZEN 5 5600X - 3.7GHz Up to 4.6GHz, AM4, 6 Cores 12 Threads - 7400000 - 7890000 - 11 - 2 - AMD - Vi xử lý
+05 - AMD RYZEN 7 5800X - 3.8GHz Up to 4.7GHz, AM4, 8 Cores 16 Threads - 10500000 - 11490000 - 8 - 3 - AMD - Vi xử lý
+06 - AMD RYZEN 9 5900X - 3.7GHz Up to 4.8GHz, AM4, 12 Cores 24 Threads - 13800000 - 14890000 - 6 - 1 - AMD - Vi xử lý
+07 - Mainboard Gigabyte Z590 Aorus Ultra - Z590 AORUS ULTRA - 7800000 - 8290000 - 15 - 9 - Gigabyte - Bo mạch chủ
+08 - Mainboard Asus ROG Strix - Z590E Gaming Wifi - 5200000 - 6290000 - 12 - 3 - Asus - Bo mạch chủ
+09 - Mainboard MSI MPG Z490M - Gaming EDGE WIFI - 4650000 - 5190000 - 10 - 9 - MSI - Bo mạch chủ
+10 - Mainboard Gigabyte X570 - Aorus Xtreme - 14650000 - 16290000 - 7 - 2 - Gigabyte - Bo mạch chủ
+11 - Mainboard Asrock B450M - Steel Legend - 150000 - 2190000 - 18 - 12 - Asrock - Bo mạch chủ
+12 - Mainboard MSI MAG B550 - TOMAHAWK MAX - 1650000 - 2290000 - 10 - 9 - MSI - Bo mạch chủ
+13 - Ram DDR4 Adata - 8G/3200 XPG Gammix D10 - 1050000 - 1250000 - 30 - 10 - Adata - Bộ nhớ
+14 - Ram DDR4 Corsair - 16G/3200 Dominator Platinum RGB - 3150000 - 3490000 - 10 - 12 - Corsair - Bộ nhớ
+15 - Ram DDR4 Team - 8G/3200 T-Force Zeus Gaming - 1250000 - 1690000 - 20 - 6 - Team - Bộ nhớ
+16 - VGA MSI RTX 3090 - GeForce RTX™ 3090 GAMING X TRIO 24G - 66650000 - 73390000 - 5 - 1 - MSI - Card đồ họa
+17 - VGA Gigabyte RTX 3080 - RTX 3080 10G GDDR6X Gaming OC - 48650000 - 52290000 - 6 - 3 - Gigabyte - Card đồ họa
+18 - VGA Asus RTX 3070 - RTX 3070 8G GDDR6 ROG Strix Gaming - 29650000 - 35290000 - 9 - 2 - Asus - Card đồ họa
+19 - Nguồn Cooler Master 750W - V750 SFX Gold 80 Plus Gold Full Modular - 2650000 - 3090000 - 20 - 9 - Cooler Master - Nguồn máy tính
+20 - Nguồn Super Flower Leadex III ARGB - 750W 80 Plus Gold Full Modular White Edition - 1650000 - 2290000 - 15 - 5 - Super Flower - Nguồn máy tính
+21 - Nguồn Asus ROG Strix 750W - 750W 80 Plus Gold Modular - 2650000 - 3290000 - 10 - 9 - Asus - Nguồn máy tính
+22 - Ổ cứng SSD 1TB Samsung - Samsung 980 Pro NVMe PCIe Gen 4.0 x4 V-NAND M.2 2280 - 5950000 - 6690000 - 25 - 9 - Samsung - Ổ cứng
+23 - Ổ cứng SSD 500G WD Black - SN750 M.2 2280 NVMe PCIe TLC Chính Hãng - 1950000 - 2590000 - 15 - 9 - WD Black - Ổ cứng
+24 - Ổ cứng SSD 500G Kingston - A2000 M.2 NVMe PCIe Gen3x4 - 1350000 - 1690000 - 20 - 9 - Kingston - Ổ cứng
