@@ -2,6 +2,7 @@ package vn.techmaster.peopledata.controller;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -85,7 +86,7 @@ public class PeopleController {
     return ResponseEntity.ok().body(personRepo.averageAgePerCity());
   }
 
-  //2.11 Tuổi cao nhất ở mỗi thành phố
+//  //2.11 Tuổi cao nhất ở mỗi thành phố
   @GetMapping("maxagepercity")
   public ResponseEntity<List<Map.Entry<String, Integer>>> maxAgePerCity() {
     return ResponseEntity.ok().body(personRepo.maxAgePerCity());
@@ -98,14 +99,14 @@ public class PeopleController {
   }
 //
 //  //2.13 Tìm thành phố có số lượng lập trình viên cao nhất
-//  @GetMapping("maxdevelopcity")
-//  public ResponseEntity<String> cityHasMaxNumberOfDeveloper(){
-//    return ResponseEntity.ok().body(personRepo.cityHasMaxNumberOfDeveloper());
-//  }
-//
+  @GetMapping("maxdevelopcity")
+  public ResponseEntity<String> cityHasMaxNumberOfDeveloper(){
+    return ResponseEntity.ok().body(personRepo.cityHasMaxNumberOfDeveloper());
+  }
+
 //  //2.14 Tính tỷ lệ nam/nữ ở mỗi thành phố
-//  @GetMapping("malefemalepercity2")
-//  public ResponseEntity<Map<String, Double>>  malefemaleRatioInEachCity(){
-//    return ResponseEntity.ok().body(personRepo.malefemaleRatioInEachCity());
-//  }
+  @GetMapping("malefemalepercity2")
+  public ResponseEntity<Map<String, Double>>  malefemaleRatioInEachCity(){
+    return ResponseEntity.ok().body(personRepo.malefemaleRatioInEachCity());
+  }
 }

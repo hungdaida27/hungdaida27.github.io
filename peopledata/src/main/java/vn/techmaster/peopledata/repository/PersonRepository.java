@@ -3,7 +3,6 @@ package vn.techmaster.peopledata.repository;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -187,21 +186,16 @@ return  step1
     return people
             .stream()
             .collect(Collectors.groupingBy(Person::getCity, Collectors.averagingDouble(Person::getAge)));
-//            Collections.emptyMap();
   }
-
 
   //2.11 Tuổi cao nhất trong mỗi thành phố
   public List<Map.Entry<String, Integer>> maxAgePerCity() {
-
-    Map<String, Integer> agePerCity =  people
+    return people
             .stream()
-            .collect(Collectors.toMap(Person::getCity, Person::getAge));
-    return  agePerCity.entrySet()
+            .collect(Collectors.groupingBy(Person::getCity,Collectors.maxBy(Comparator.comparingInt(Person::getAge))))
+            .values()
             .stream()
-           .collect(Collectors.maxBy(Map.Entry.comparingByValue()))
-            .stream().collect(Collectors.toList());
-//            Collections.emptyList();
+            .map(person -> Map.entry(person.get().getCity(),person.get().getAge())).collect(Collectors.toList());
   }
 
   //2.12 tỷ lệ nam / nữ trong toàn bộ dữ liệu
@@ -216,16 +210,38 @@ return  step1
 
 
 //  2.13 Tìm thành phố có số lượng lập trình viên cao nhất
-//  public String cityHasMaxNumberOfDeveloper() {
-//    people
-//            .stream()
-//            .filter(p -> p.getJob().equals("developer"))
-//            .
-//    return "Collections.emptyList()";
-//  }
+  public String cityHasMaxNumberOfDeveloper() {
+    var countDev =  people
+            .stream()
+            .filter(p -> p.getJob().equals("developer"))
+            .collect(Collectors.groupingBy(Person::getCity, Collectors.counting()))
+            .entrySet()
+            .stream()
+            .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+            .limit(1)
+            .map(Map.Entry::getKey)
+            .collect(Collectors.joining());
+    return countDev;
+  }
 //
 //  //2.14 Tính tỷ lệ nam/nữ ở mỗi thành phố
-//  public Map<String, Double> malefemaleRatioInEachCity() {
-//    return Collections.emptyList();
-//  }
+
+  public Double maleFemaleRatioPerCity(List<Person> groupPeople) {
+    var countGender = groupPeople
+            .stream()
+            .collect(Collectors.groupingBy(Person::getGender, Collectors.counting()));
+    double result1 = countGender.get("Male");
+    double result2 = groupPeople.size();
+    return result1/(result2-result1);
+  }
+
+  public Map<String, Double> malefemaleRatioInEachCity() {
+    Map<String, List<Person>> groupPeopleByCity = people
+            .stream()
+            .collect(Collectors.groupingBy(Person::getCity));
+    var step1 = groupPeopleByCity.entrySet()
+            .stream()
+            .collect(Collectors.toMap(Map.Entry::getKey, entry -> maleFemaleRatioPerCity(entry.getValue())));
+    return step1;
+  }
 }
